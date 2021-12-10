@@ -1,0 +1,26 @@
+apt install python3-pip
+pip install virtualenv
+pip install chess
+apt install python3-venv
+python3 -m venv venv
+virtualenv venv -p python3
+source ./venv/bin/activate
+python3 -m pip install -r requirements.txt
+exit
+
+# cd FaroffLateDaemon
+
+# # exit
+# python lichess-bot.py -u
+
+
+
+
+
+pip install virtualenv
+pip install chess
+python3 -m venv venv
+virtualenv venv -p python3
+source ./venv/bin/activate
+python3 -m pip install -r requirements.txt
+python lichess-bot.py
